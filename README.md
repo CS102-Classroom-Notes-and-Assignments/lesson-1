@@ -4,13 +4,10 @@
 - Introductions - Name, Major, Year, Coding Experience, favorite food place to eat
 - Review the syllabus for the semester
 
-2. Computers and Programming Languages
-link picture here
-
-3. Machine Code
-
-4. Intro to Unix
-
+2. Topics covered:
+  - Computers and Programming Languages
+  - Machine Code
+  - Intro to Unix
 
 | **Command**               | **Description**                                                                                                                                            |
 |---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -34,9 +31,93 @@ link picture here
 | ff                        |  find files anywhere on the system                                                                                                                         |
 | grep string filename      | looks for a string in the files in the directory Note: there are many useful flags that you can use to make this stronger; see man grep                    |
 
+## Editors and Shell Scripts
+We will use vim for this class to write our programs. In future classes, we will look into other editors such as VScode.
+Vim commands:
+  - vim filename -- to start editing a file with vim
+  - ESC :w -- write/save the file
+  - ESC i -- insert before the character
+  - ESC a -- insert after the character
+  - ESC :q -- quit vim
+  
+Basic Bash Shell Script called **unix_commands.sh**:
+```
+#!/bin/bash
 
-5. Editors and Shell Scripts
+mkdir new_folder
+cd new_folder
+touch new_file.txt
+ls
+```
 
-6. Writing Hello World
+Running a Bash Script in terminal:
+```
+chmod 777 unix_commands.sh
+./unix_commands.sh
+```
 
-7. Github
+## Writing Hello World
+- Create the file hello.c: ```vim hello.c```
+- Enter the file and edit the contents of the file:
+  ```
+  #include <stdio.h>
+  int main()
+  {
+    printf("Hello, World\n");
+    return 0;
+   }
+  ```
+ - Save and exit the vim editor: ```ESC :wq```
+ - Compile the program: ```gcc hello.c```
+ - Run the program: ```./a.exe```
+
+
+## Github
+
+### Setting up Gtihub
+  - Create a github account.
+  - Open terminal, and set your username: 
+  ```
+      git config --global user.name "John Doe"
+      git config --global user.email johndoe@example.com 
+  ```
+  - Set up your ssh key:
+    - [Generate a new key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key)
+      - Run the following command and then press enter to store the file in the default location. 
+      ```
+      ssh-keygen -t ed25519 -C "your_email@example.com"
+      ```
+    - [Add ssh key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account)
+      -  Run the following command to copy the key to your clipboard. Then paste this key into your account settings. 
+      ```
+      pbcopy < ~/.ssh/id_ed25519.pub
+      ```
+### Create a branch
+```
+git checkout -b helloBranch
+```
+Copy your hello.c file into the directory and add and commit it with:
+```
+git add hello.c
+git commit -m "first commit"
+```
+Now push your branch to github:
+```
+git push origin helloBranch
+```
+
+CREATING A PULL REQUEST & MERGING TO MASTER/MAIN
+Go to the main github page and create a new pull request.
+The first branch is what you're merging into.
+Add some comments and click "Create pull request"
+You can now do a code review in the Files changed tab
+Lastly, click "Merge pull request" to merge it to the master branch.
+  
+  
+
+## Homework:
+  - Go to the hw link (https://classroom.github.com/a/MGFbjjfd) and make a team
+  - In your terminal, clone the repo: ```git clone <link>```
+  - Answers the questions in the readme file
+  - push the main branch to github: ```git push origin master```
+  
