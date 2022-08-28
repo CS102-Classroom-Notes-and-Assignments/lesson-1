@@ -1,7 +1,7 @@
 # lesson-1 notes
 
 ## Course Overview
-- General Course guidelines and syllabus are in the readme for this organization.
+- General Course guidelines are in the repo called syllabus.
 
 ## Computers and Programming Languages
 ![alt text](computerProgramming.png)
