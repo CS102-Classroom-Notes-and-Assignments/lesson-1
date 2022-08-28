@@ -1,13 +1,16 @@
 # lesson-1
 
-1. Course Overview
+## Course Overview
 - Introductions - Name, Major, Year, Coding Experience, favorite food place to eat
 - Review the syllabus for the semester
 
-2. Topics covered:
-  - Computers and Programming Languages
-  - Machine Code
-  - Intro to Unix
+## - Computers and Programming Languages
+
+ 
+## How to access the terminal
+ If you have a Mac computer, search for Terminal, in the search bar. 
+ If you have a windows computer, you can use the [Ubuntu shell](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview), or download [cygwin](https://www.cygwin.com/).
+ 
 
 | **Command**               | **Description**                                                                                                                                            |
 |---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -106,15 +109,11 @@ Now push your branch to github:
 git push origin helloBranch
 ```
 
-CREATING A PULL REQUEST & MERGING TO MASTER/MAIN
-Go to the main github page and create a new pull request.
-The first branch is what you're merging into.
-Add some comments and click "Create pull request"
-You can now do a code review in the Files changed tab
-Lastly, click "Merge pull request" to merge it to the master branch.
+### Merge branch to main
+- To merge the new branch (helloBranch) into main, click on "Create pull request"
+- Now that the PR (pull request) is created, we can review the code and add comments.
+- Click "Merge pull request" to merge helloBranch into main.
   
-  
-
 ## Homework:
   - Go to the hw link (https://classroom.github.com/a/MGFbjjfd) and make a team
   - In your terminal, clone the repo: ```git clone <link>```
