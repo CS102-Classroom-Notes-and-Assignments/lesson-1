@@ -26,7 +26,7 @@ versions for `python38`, `python38-devel`, `python38-pip`,
 `python38-setuptools`, and `python38-virtualenv`.
  
  
- ## Unix Commands covered in class
+ ## Unix Commands 
 
 | **Command**               | **Description**                                                                                                                                            |
 |---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -49,6 +49,14 @@ versions for `python38`, `python38-devel`, `python38-pip`,
 | touch filename            | creates a blank file or updates the timestamp of the file touched                                                                                          |
 | ff                        |  find files anywhere on the system                                                                                                                         |
 | grep string filename      | looks for a string in the files in the directory Note: there are many useful flags that you can use to make this stronger; see man grep                    |
+
+Other useful commands:
+* `.`: The **working directory**
+* `..`: The **parent** of the working directory
+* `~`: The **home** directory.
+* `-`: The **previous** working directory
+
+
 
 ## Editors and Shell Scripts
 We will use vim for this class to write our programs. In future classes, we will look into other editors such as VScode.
