@@ -1,8 +1,7 @@
 # lesson-1 notes
 
 ## Course Overview
-- Introductions - Name, Major, Year, Coding Experience, favorite food place to eat
-- Review the syllabus for the semester
+- General Course guidelines and syllabus are in the readme for this organization.
 
 ## Computers and Programming Languages
 ![alt text](computerProgramming.png)
