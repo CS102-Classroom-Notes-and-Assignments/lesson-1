@@ -8,8 +8,22 @@
 
  
 ## How to access the terminal
- If you have a Mac computer, search for Terminal, in the search bar. 
- If you have a windows computer, you can use the [Ubuntu shell](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview), or download [cygwin](https://www.cygwin.com/).
+- Linux, press `Ctrl+Alt+T`.
+- Mac
+  1. Press `⌘+space`.
+  2. Search for and open `terminal`.
+  3. (Optional) Install *iTerm2* for a better experience.
+- Windows
+  - Use[Cygwin](https://www.cygwin.com/) which you can download directly [here](https://www.cygwin.com/setup-x86_64.exe)
+   1. Choose all default options.
+   2. When it asks you to choose a download site, pick any.
+   3. When it asks you to select packages, search for `gcc-g++`, navigate into
+`All` -> `Devel` -> `gcc-g++` and select the latest version from the dropdown
+   4. Now search for `make`, navigate to `All` -> `Devel` -> `make` and select the
+latest version
+   5. Now search `python`, navigate to `All` -> `Python`.  Select the latest
+versions for `python38`, `python38-devel`, `python38-pip`,
+`python38-setuptools`, and `python38-virtualenv`.
  
  
  ## Unix Commands covered in class
