@@ -1,16 +1,19 @@
-# lesson-1
+# lesson-1 notes
 
 ## Course Overview
 - Introductions - Name, Major, Year, Coding Experience, favorite food place to eat
 - Review the syllabus for the semester
 
-## - Computers and Programming Languages
+## Computers and Programming Languages
+![alt text](computerProgramming.png)
 
  
 ## How to access the terminal
  If you have a Mac computer, search for Terminal, in the search bar. 
  If you have a windows computer, you can use the [Ubuntu shell](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview), or download [cygwin](https://www.cygwin.com/).
  
+ 
+ ## Unix Commands covered in class
 
 | **Command**               | **Description**                                                                                                                                            |
 |---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
