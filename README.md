@@ -111,7 +111,7 @@ chmod 777 unix_commands.sh
       ```
       pbcopy < ~/.ssh/id_ed25519.pub
       ```
-### Create a branch
+### Creating a branch
 ```
 git checkout -b helloBranch
 ```
