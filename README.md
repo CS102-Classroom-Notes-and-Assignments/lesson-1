@@ -24,7 +24,7 @@ latest version
    5. Now search `python`, navigate to `All` -> `Python`.  Select the latest
 versions for `python39`, `python39-devel`, `python39-pip`,
 `python39-setuptools`, and `python39-virtualenv`.
-6. In the terminal do ```cd "C:\users"``` to see your personal user account, documents, downloads...
+   6. In the terminal do ```cd "C:\users"``` to see your personal user account, documents, downloads...
  
  
  ## Unix Commands 
