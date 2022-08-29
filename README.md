@@ -22,8 +22,8 @@
    4. Now search for `make`, navigate to `All` -> `Devel` -> `make` and select the
 latest version
    5. Now search `python`, navigate to `All` -> `Python`.  Select the latest
-versions for `python38`, `python38-devel`, `python38-pip`,
-`python38-setuptools`, and `python38-virtualenv`.
+versions for `python39`, `python39-devel`, `python39-pip`,
+`python39-setuptools`, and `python39-virtualenv`.
  
  
  ## Unix Commands 
