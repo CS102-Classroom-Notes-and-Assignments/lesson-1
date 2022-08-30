@@ -14,7 +14,7 @@
   2. Search for and open `terminal`.
   3. (Optional) Install *iTerm2* for a better experience.
 - Windows
-  - Use[Cygwin](https://www.cygwin.com/) which you can download directly [here](https://www.cygwin.com/setup-x86_64.exe)
+  - Use [Cygwin](https://www.cygwin.com/) which you can download directly [here](https://www.cygwin.com/setup-x86_64.exe)
    1. Choose all default options.
    2. When it asks you to choose a download site, pick any.
    3. When it asks you to select packages, search for `gcc-g++`, navigate into
