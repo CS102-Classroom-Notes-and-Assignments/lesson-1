@@ -125,10 +125,12 @@ chmod 777 unix_commands.sh
 ```
 git checkout -b helloBranch
 ```
-Copy your hello.c file into the directory and add and commit it with:
+Copy your hello.c file into the directory and add and commit it with the commands shown bellow. Git status helps you see what files have been added, committed or pushed to origin.
 ```
 git add hello.c
+git status
 git commit -m "first commit"
+git status
 ```
 Now push your branch to github:
 ```
