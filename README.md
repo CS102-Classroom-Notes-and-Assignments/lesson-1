@@ -146,5 +146,5 @@ git push origin helloBranch
   - Go to the hw link (https://classroom.github.com/a/MGFbjjfd) and make a team
   - In your terminal, clone the repo: ```git clone <link>```
   - Answers the questions in the readme file
-  - push the main branch to github: ```git push origin master```
+  - push the main branch to github: ```git push origin main```
   
