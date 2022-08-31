@@ -148,3 +148,8 @@ git push origin helloBranch
   - Answers the questions in the readme file
   - push the main branch to github: ```git push origin main```
   
+### Homework Help:
+If you are having difficulty setting up the terminal on your computer (difficulty downloading cygwin, using github, ...), feel free to use Replit. I have attached a screen recording of how you can set up Replit, as well as doing the first couple steps of the homework.
+https://www.dropbox.com/s/kbdfsaghk53xkay/Replit_Setup.mov?dl=0 
+
+  
