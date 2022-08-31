@@ -98,7 +98,7 @@ chmod 777 unix_commands.sh
   ```
  - Save and exit the vim editor: ```ESC :wq```
  - Compile the program: ```gcc hello.c```
- - Run the program: ```./a.exe```
+ - Run the program: ```./a.out```
 
 
 ## Github
