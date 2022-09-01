@@ -104,6 +104,7 @@ chmod 777 unix_commands.sh
 ## Github
 
 ### Setting up Gtihub
+Download git from here: https://git-scm.com/downloads
   - Create a github account.
   - Open terminal, and set your username: 
   ```
