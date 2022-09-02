@@ -153,4 +153,5 @@ git push origin helloBranch
 If you are having difficulty setting up the terminal on your computer (difficulty downloading cygwin, using github, ...), feel free to use Replit. I have attached a screen recording of how you can set up Replit, as well as doing the first couple steps of the homework.
 https://www.dropbox.com/s/kbdfsaghk53xkay/Replit_Setup.mov?dl=0 
 
-  
+Here is a video on how to do the first couple steps of the assignment, and push your changes to github:
+https://www.dropbox.com/s/bjp014tifv7p3yv/SubmittingHomework.mov?dl=0  
