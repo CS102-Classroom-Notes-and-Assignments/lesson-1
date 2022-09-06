@@ -70,6 +70,7 @@ Vim commands:
   - ESC :q -- quit vim
   
 Basic Bash Shell Script called **unix_commands.sh**:
+ - note that the line ```#!/bin/bash``` is required at the top of every bash script
 ```
 #!/bin/bash
 
